@@ -1,18 +1,60 @@
 ---
-title: Article 05
-date: 01-05-2014
+title: Nmap
+published: true
+date: '05-09-2017 00:00'
+publish_date: '05-09-2017 00:00'
 taxonomy:
-    category: [Topic 1]
-    tag: []
-    author: Bob Burns
+    category:
+        - Tools
+    tag:
+        - penetration-testing
+        - tools
+        - nmap
+        - vulnerability-exploitation
+    author:
+        - 'Shashank Agarwal'
 ---
 
-An mei brute munere, sit diceret appetere convenire id. Posse impedit nusquam cu sea, id saperet concludaturque vis. Hinc postulant interesset ne his, omittam argumentum cu sit, nam animal cotidieque in? Posse populo an vix. No wisi fugit mel, ei nostro prompta vel, sonet partem voluptatum et sea.
+Nmap [![Build Status](https://travis-ci.org/nmap/nmap.svg?branch=master)](https://travis-ci.org/nmap/nmap)
+====
 
-Modus mollis theophrastus eos et. Qui et quis facer, no volumus officiis philosophia ius. Has mollis melius aperiam ex. Eos ad dolorum perfecto omittantur? Modus intellegam in pro, eirmod petentium similique vim cu, mel an nibh tation quaestio!
+Nmap is released under a custom license, which is based on (but not compatible
+with) GPLv2. The Nmap license allows free usage by end users, and we also offer
+a commercial license for companies that wish to redistribute Nmap technology
+with their products. See [Nmap Copyright and Licensing](https://nmap.org/book/man-legal.html)
+for full details.
 
-Altera option oblique ex duo, munere mucius in eum. Eos ut wisi apeirian? Eum ad erat exerci veritus, sea reque soluta scripserit te, cu harum iudico vis. Usu ea consectetuer definitiones. Inani debet phaedrum vix an! Graece vituperata referrentur est in, qui quis vocibus adolescens ei.
+The latest version of this software as well as binary installers for Windows,
+macOS, and Linux (RPM) are available from
+[Nmap.org](https://nmap.org/download.html)
 
-Stet cibo mnesarchum ne eum, eos ex justo maiorum dissentias? Odio noster ponderum mel ad. Et ius fugit pertinax petentium. Pro eu elit iusto veniam, at duo iuvaret electram forensibus, vis aeterno aperiam interesset ne. Nam an tale laboramus, et erat adolescens reprimique nam, tation altera duo in. Mea esse molestiae definitiones ei, sea exerci aeterno minimum in, te harum voluptatum delicatissimi est.
+Full documentation is also available
+[on the Nmap.org website](https://nmap.org/docs.html).
 
-Qui dicta pericula cu, pri hinc fabulas vivendo id! An ius fabellas reprimique, eu soleat ornatus ceteros pro! Dicunt eripuit pro at, verear senserit sit id, ius ea dolores verterem aliquando. Ut quaeque eleifend eam. Id pri tota affert, id vix paulo numquam quaestio, te ullum propriae pertinacia vim! Vel no quidam graeco.
+Questions and suggestions may be sent to
+[the Nmap-dev mailing list](https://nmap.org/mailman/listinfo/dev).
+
+Installing
+----------
+Ideally, you should be able to just type:
+
+    ./configure
+    make
+    make install
+
+For far more in-depth compilation, installation, and removal notes, read the
+[Nmap Install Guide](https://nmap.org/book/install.html) on Nmap.org.
+
+Using Nmap
+----------
+Nmap has a lot of features, but getting started is as easy as running `nmap
+scanme.nmap.org`. Running `nmap` without any parameters will give a helpful
+list of the most common options, which are discussed in depth in [the man
+page](https://nmap.org/book/man.html). Users who prefer a graphical interface
+can use the included [Zenmap front-end](https://nmap.org/zenmap/).
+
+Contributing
+------------
+Information about filing bug reports and contributing to the Nmap project can
+be found in the [HACKING](HACKING) and [CONTRIBUTING.md](CONTRIBUTING.md)
+files.
