@@ -1,20 +1,23 @@
 ---
-title: Article 02
-date: 01-02-2014
+title: 'Contributing to HackItEasy'
+date: '01-02-2014 00:00'
 taxonomy:
-    category: [Topic 2]
-    tag: [tag1]
-    author: Bob Burns
-
+    category:
+        - Tutorial
+        - Contributing
+    tag:
+        - contributing
+        - grav
+        - pages-repo
+    author:
+        - 'Shashank Agarwal'
 media: video
 ---
 
-Ea feugiat verterem quo! Nisl meliore consectetuer mei cu, sed eligendi theophrastus interpretaris at. No prompta atomorum mel. Est eius adipisci ne! Voluptua deserunt cum te.
+HackItEasy is open-sourced and all articles are user community driven. HackItEasy used [grav](https://getgrav.org/) to manage the website. To contribute an article please follow the below guidelines
 
-Ut wisi saepe instructior pro, te possit salutatus his! Ne cum stet prompta! Ea commodo legendos pri. Vis idque vivendo eu, vix at essent blandit? Vim consul dolorum quaestio ex, nec ex voluptaria argumentum! Torquatos disputando ex vel. Cetero pertinacia duo et!
+Open a PR to -> [https://github.com/imshashank/hackiteasy-pages](https://github.com/imshashank/hackiteasy-pages)
 
-An propriae argumentum est. Facete intellegebat cum no, no vix explicari conclusionemque! At qui fuisset delectus, mea argumentum conclusionemque ne. Est ne mundi similique complectitur, ea graecis consequat vis! Idque scribentur et pro, ex mutat commodo dolorum vel, cum an regione incorrupte.
+Please have a look at garv's documentation on `content-pages` -> [https://learn.getgrav.org/content/content-pages](https://learn.getgrav.org/content/content-pages)
 
-Pro sint modus ne. Nec brute signiferumque te, magna mutat lorem mei an. Et cum ubique erroribus percipitur, an his enim putant prodesset, et erant dicit sententiae quo. Fierent elaboraret vix an, ea eam simul adolescens consetetur?
-
-Ad bonorum recteque vix. Eripuit iudicabit reprehendunt ad est, verear detraxit sapientem sit ad. Ea tibique commune facilisi cum. Dictas deleniti mea ei, ius eligendi nominati id? Eos dicit legere ut. Te usu illum commune copiosae, regione inciderint te est.
+All pages are rendered using MarkDown.
