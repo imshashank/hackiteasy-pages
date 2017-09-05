@@ -1,20 +1,62 @@
 ---
-title: Article 03
-date: 01-03-2014
+title: DataSploit
+date: '01-03-2014 00:00'
 taxonomy:
-    category: [Topic 3]
-    tag: [tag2,tag3]
-    author: [Cathy Carp, Darren Day]
-
+    category:
+        - Tools
+        - Osint
+    tag:
+        - osint
+        - tool
+        - datasploit
+    author:
+        - 'Shashank Agarwal'
 media: video
 ---
 
-Duo fuisset invenire voluptatibus ut. Ei has oratio iriure utamur. Ne pri mutat autem posidonium. Adhuc salutatus ex qui! Usu et veniam facilisi! No fierent noluisse nam, ad mea quod atqui. Per ea audire praesent tincidunt, ut ridens verear ius, iuvaret abhorreant ex qui?
+[![ToolsWatch Best Tools](https://www.toolswatch.org/badges/toptools/2016.svg)](https://www.toolswatch.org/2013/12/2013-top-security-tools-as-voted-by-toolswatch-org-readers/)
 
-Ut quas graece recusabo vix, eam an nostrum appellantur. Vocent phaedrum ea sit, pro menandri deserunt cu? Eu his prompta alterum urbanitas, facilis rationibus incorrupte sea ea. Pro eu inermis qualisque, duo tractatos voluptaria id! Ne eum sumo saepe. Brute laudem eloquentiam ea cum, nec duis menandri eu?
+[![Black Hat Arsenal](https://www.toolswatch.org/badges/arsenal/2016.svg)](https://www.blackhat.com/us-16/arsenal.html#datasploit) US
 
-Modo saepe nusquam ut mei. An sit quaeque incorrupte conclusionemque, te malis clita accommodare eum. Id ius integre conceptam. Melius erroribus prodesset an mel, et pro placerat consulatu, ne iudico ridens constituto eam. Et has eius alterum moderatius, usu errem laboramus id? Has et posse tollit soleat.
+[![Black Hat Arsenal](https://www.toolswatch.org/badges/arsenal/2016.svg)](https://www.blackhat.com/us-16/arsenal.html#datasploit) EU
 
-Idque bonorum euripidis mea at, ei meis ancillae ius. Id nam blandit assentior! Blandit verterem principes his id, eum an verear antiopam? Ex aeterno theophrastus sit, causae labores admodum ei est, ea quod repudiandae definitiones nam!
 
-Timeam prodesset intellegat mei in, cu movet laudem salutatus sit! Cu illum mundi nec. Sensibus imperdiet id vim, assum partem docendi vix no, quod adipisci pri ad. Pri ne deleniti erroribus disputando. An qui erant reformidans suscipiantur. Nibh honestatis ea quo, sea modo exerci no, et vix clita indoctum voluptaria. Ut mel dicat consul utroque.
+The tutorial covers the OSint Tool [DataSploit](https://github.com/DataSploit/datasploit) 
+
+# Overview of the tool:
+* Performs OSINT on a domain / email / username / phone and find out information from different sources.
+* Correlates and collaborate the results, show them in a consolidated manner. 
+* Tries to find out credentials, api-keys, tokens, subdomains, domain history, legacy portals, etc. related to the target. 
+* Use specific script / launch automated OSINT for consolidated data.
+* Performs Active Scans on collected data.
+* Generates HTML, JSON reports along with text files.
+ 
+## Basic Usage:
+```
+
+	  ____/ /____ _ / /_ ____ _ _____ ____   / /____  (_)/ /_
+	  / __  // __ `// __// __ `// ___// __ \ / // __ \ / // __/
+	 / /_/ // /_/ // /_ / /_/ /(__  )/ /_/ // // /_/ // // /_  
+	 \__,_/ \__,_/ \__/ \__,_//____// .___//_/ \____//_/ \__/  
+	                               /_/                        
+						
+         	   Open Source Assistant for #OSINT            
+                 website: www.datasploit.info               
+	
+Usage: domainOsint.py [options]
+
+Options:
+  -h,	    	--help			    show this help message and exit
+  -d DOMAIN,	--domain=DOMAIN		Domain name against which automated Osint 
+                                    is to be performed.
+
+```
+
+# Required Setup:
+* Python 2.7 (because bunch of dependencies do not support Python 3.0)
+* Bunch of python libraries (use requirements.txt)
+
+
+## Detailed Tool Documentation:
+> [https://datasploit.github.io/datasploit/](https://datasploit.github.io/datasploit/)
+

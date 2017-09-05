@@ -1,14 +1,12 @@
 ---
 title: 'Contributing to HackItEasy'
-date: '01-02-2014 00:00'
+date: '04-09-2017 00:00'
 taxonomy:
     category:
-        - Tutorial
         - Contributing
     tag:
         - contributing
         - grav
-        - pages-repo
     author:
         - 'Shashank Agarwal'
 media: video
