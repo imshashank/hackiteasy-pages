@@ -15,7 +15,10 @@ taxonomy:
 media: video
 ---
 
-Metasploit [![Build Status](https://travis-ci.org/rapid7/metasploit-framework.svg?branch=master)](https://travis-ci.org/rapid7/metasploit-framework) [![Code Climate](https://img.shields.io/codeclimate/github/rapid7/metasploit-framework.svg)](https://codeclimate.com/github/rapid7/metasploit-framework)
+# Metasploit
+[TOC]
+
+[![Build Status](https://travis-ci.org/rapid7/metasploit-framework.svg?branch=master)](https://travis-ci.org/rapid7/metasploit-framework) [![Code Climate](https://img.shields.io/codeclimate/github/rapid7/metasploit-framework.svg)](https://codeclimate.com/github/rapid7/metasploit-framework)
 ==
 The Metasploit Framework is released under a BSD-style license. See
 COPYING for more details.
