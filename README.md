@@ -1,5 +1,7 @@
 # HackItEasy Pages
 
+[Shashank Agarwal](https://www.linkedin.com/in/shashankagarwal2/) started HackItEasy as a technical publishing site. This repository documents its later community submission workflow. Individual articles are credited to their own authors.
+
 HackItEasy is open-sourced and all articles are user community driven. HackItEasy uses [grav](https://getgrav.org/) to manage the website. To contribute an article please follow the below guidelines:
 
 Each article will be submitted using github.
